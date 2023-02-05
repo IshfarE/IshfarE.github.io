@@ -1,0 +1,112 @@
+body
+{
+	content: "";
+	background-image: url('./background.jpg');
+	background-size: cover;
+	opacity: 1;
+	z-index: -1;
+	font-family: sans-serif;	
+}
+
+#heading
+{
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+}
+
+#main_links
+{
+	margin-left: 20%;
+	font-size: 20px;
+}
+
+#education
+{
+	color: darkslategray;
+	width: 350px;
+	margin-left: 50px;
+	float: left;
+	background: powderblue;
+}
+.name
+{
+	text-align: center;
+}
+.quote
+{
+	background: royalblue;
+	width: 26%;
+	float: right;
+	color: lightcyan;
+	border-radius: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+table, th, td
+{
+	margin-left: 30%;
+	width: 40%;
+	text-align:center;
+}
+th
+{  
+	font-size: 25px;
+	font-family: sans-serif;
+	
+}
+td
+{   
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.zebra tr:nth-child(odd)
+{
+	background: skyblue;
+}
+.zebra tr:nth-child(even)
+{
+	background: lightcyan;
+}
+
+.face
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#interest_web
+{
+	color: midnightblue;
+	width: 200px;
+	margin-right: 25px;
+	float: right;
+	background: aliceblue;
+}
+
+a:hover
+{
+	background-color: darkgreen;
+	border-radius: 20px 20px 20px 20px;
+	color: springgreen;
+}
+
+.spanner
+{
+	color:red;
+	font-weight:bold;
+}
+
+.nobullet
+{
+	list-style-type: none;
+}
+
+.stylelink
+{
+	background: lightcyan;
+	float: left;
+	margin-left: 21%;
+}
